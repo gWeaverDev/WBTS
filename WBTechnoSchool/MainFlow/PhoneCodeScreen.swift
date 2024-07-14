@@ -1,13 +1,6 @@
-//
-//  ContentView.swift
-//  WBTechnoSchool
-//
-//  Created by George Weaver on 14.07.2024.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+struct PhoneCodeScreen: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +13,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    PhoneCodeScreen()
 }

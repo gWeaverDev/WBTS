@@ -1,0 +1,6 @@
+// MARK: - CodeScreen
+
+"CodeScreen.requestTitle.again" = "Запросить повторно через";
+"CodeScreen.requestTitle.seconds" = "сек";
+"CodeScreen.buttonTitle" = "Авторизоваться";
+"CodeScreen.navigation.back" = "Вернуться назад";

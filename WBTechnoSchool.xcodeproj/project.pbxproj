@@ -8,17 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7EC9F0032C44577300703F75 /* WBTechnoSchoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC9F0022C44577300703F75 /* WBTechnoSchoolApp.swift */; };
-		7EC9F0052C44577300703F75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC9F0042C44577300703F75 /* ContentView.swift */; };
-		7EC9F0072C44577400703F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC9F0062C44577400703F75 /* Assets.xcassets */; };
-		7EC9F00A2C44577400703F75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC9F0092C44577400703F75 /* Preview Assets.xcassets */; };
+		7EC9F0052C44577300703F75 /* PhoneCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC9F0042C44577300703F75 /* PhoneCodeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7EC9EFFF2C44577300703F75 /* WBTechnoSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBTechnoSchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC9F0022C44577300703F75 /* WBTechnoSchoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBTechnoSchoolApp.swift; sourceTree = "<group>"; };
-		7EC9F0042C44577300703F75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7EC9F0062C44577400703F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7EC9F0092C44577400703F75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EC9F0042C44577300703F75 /* PhoneCodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCodeScreen.swift; sourceTree = "<group>"; };
+		7EC9F0142C44593D00703F75 /* WBKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = WBKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +32,7 @@
 		7EC9EFF62C44577300703F75 = {
 			isa = PBXGroup;
 			children = (
+				7EC9F0142C44593D00703F75 /* WBKit */,
 				7EC9F0012C44577300703F75 /* WBTechnoSchool */,
 				7EC9F0002C44577300703F75 /* Products */,
 			);
@@ -51,20 +49,34 @@
 		7EC9F0012C44577300703F75 /* WBTechnoSchool */ = {
 			isa = PBXGroup;
 			children = (
+				7EC9F0122C44589F00703F75 /* Core */,
+				7EC9F0112C44586B00703F75 /* MainFlow */,
+				7EC9F0102C44585700703F75 /* UIKit */,
 				7EC9F0022C44577300703F75 /* WBTechnoSchoolApp.swift */,
-				7EC9F0042C44577300703F75 /* ContentView.swift */,
-				7EC9F0062C44577400703F75 /* Assets.xcassets */,
-				7EC9F0082C44577400703F75 /* Preview Content */,
 			);
 			path = WBTechnoSchool;
 			sourceTree = "<group>";
 		};
-		7EC9F0082C44577400703F75 /* Preview Content */ = {
+		7EC9F0102C44585700703F75 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				7EC9F0092C44577400703F75 /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		7EC9F0112C44586B00703F75 /* MainFlow */ = {
+			isa = PBXGroup;
+			children = (
+				7EC9F0042C44577300703F75 /* PhoneCodeScreen.swift */,
+			);
+			path = MainFlow;
+			sourceTree = "<group>";
+		};
+		7EC9F0122C44589F00703F75 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +137,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EC9F00A2C44577400703F75 /* Preview Assets.xcassets in Resources */,
-				7EC9F0072C44577400703F75 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EC9F0052C44577300703F75 /* ContentView.swift in Sources */,
+				7EC9F0052C44577300703F75 /* PhoneCodeScreen.swift in Sources */,
 				7EC9F0032C44577300703F75 /* WBTechnoSchoolApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
